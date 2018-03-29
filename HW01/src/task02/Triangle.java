@@ -15,6 +15,16 @@ public class Triangle {
         this.c = c;
     }
 
+
+    public Triangle() {
+    }
+
+    public Triangle(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+
     public double getA() {
 
         return a;

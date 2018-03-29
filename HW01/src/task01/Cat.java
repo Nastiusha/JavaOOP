@@ -20,6 +20,13 @@ public class Cat {
         this.color = color;
     }
 
+    public Cat(String name, int age, String breed, String[] color) {
+        this.name = name;
+        this.age = age;
+        this.breed = breed;
+        this.color = color;
+    }
+
     public String getName() {
         return name;
     }

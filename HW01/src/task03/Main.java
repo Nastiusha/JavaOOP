@@ -26,11 +26,11 @@ public class Main {
 
         /*Scalar multiply of v1 and v2 vectors*/
         Vector3d v12 = new Vector3d();
-        System.out.println("v12 = " + v12.scalar_multiply(v1, v2));
+        System.out.println("v12 = " + v12.scalarMultiply(v1, v2));
 
         /*Vector multiply of v1 and v2 vectors*/
         Vector3d v12_1 = new Vector3d();
-        System.out.println("v12_1 = " + v12_1.vector_multiply(v1, v2));
+        System.out.println("v12_1 = " + v12_1.vectorMultiply(v1, v2));
 
     }
 }

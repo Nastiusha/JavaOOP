@@ -15,6 +15,15 @@ public class Vector3d {
         this.z = z;
     }
 
+    public Vector3d() {
+    }
+
+    public Vector3d(double x, double y, double z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
+
     public double getX() {
 
         return x;
@@ -76,7 +85,7 @@ public class Vector3d {
         return v3;
     }
 
-    public double scalar_multiply(Vector3d v1, Vector3d v2) {
+    public double scalarMultiply(Vector3d v1, Vector3d v2) {
 
         double x1 = v1.getX();
         double y1 = v1.getY();
@@ -91,7 +100,7 @@ public class Vector3d {
         return v12;
     }
 
-    public Vector3d vector_multiply(Vector3d v1, Vector3d v2) {
+    public Vector3d vectorMultiply(Vector3d v1, Vector3d v2) {
 
         double x1 = v1.getX();
         double y1 = v1.getY();
