@@ -6,19 +6,19 @@ import java.util.List;
 public class Network {
 
     private List<Phone> phs = new ArrayList<Phone>();
+    
+    public Network() {
+    }
+
+    public Network(List<Phone> phs) {
+        this.phs = phs;
+    }
 
     public List<Phone> getPhs() {
         return phs;
     }
 
     public void setPhs(List<Phone> phs) {
-        this.phs = phs;
-    }
-
-    public Network() {
-    }
-
-    public Network(List<Phone> phs) {
         this.phs = phs;
     }
 
