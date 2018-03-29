@@ -11,6 +11,14 @@ public class Cat {
 
     public Cat() {
     }
+    
+    
+    public Cat(String name, int age, String breed, String[] color) {
+        this.name = name;
+        this.age = age;
+        this.breed = breed;
+        this.color = color;
+    }
 
     public String getName() {
         return name;
@@ -41,13 +49,6 @@ public class Cat {
     }
 
     public void setColor(String[] color) {
-        this.color = color;
-    }
-
-    public Cat(String name, int age, String breed, String[] color) {
-        this.name = name;
-        this.age = age;
-        this.breed = breed;
         this.color = color;
     }
 
