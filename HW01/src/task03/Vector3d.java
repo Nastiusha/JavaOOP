@@ -5,6 +5,15 @@ public class Vector3d {
     private double x;
     private double y;
     private double z;
+    
+    public Vector3d() {
+    }
+
+    public Vector3d(double x, double y, double z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+    }
 
     public double getX() {
 
@@ -33,15 +42,6 @@ public class Vector3d {
 
     public void setZ(double z) {
 
-        this.z = z;
-    }
-
-    public Vector3d() {
-    }
-
-    public Vector3d(double x, double y, double z) {
-        this.x = x;
-        this.y = y;
         this.z = z;
     }
 
